@@ -26,4 +26,14 @@ Mac
 brew upgrade node
 ```
 
+Linux
 
+Run the same commands as you did for installation, except set the version number to the current release displayed on [nodejs.org](https://nodejs.org/).
+
+## Nvm
+
+Depending on your needs, you may need to manage multiple node.js versions. For that, you should install nvm:
+
+```
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.32.1/install.sh | bash
+```
