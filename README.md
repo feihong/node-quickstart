@@ -30,7 +30,7 @@ brew upgrade node
 
 Run the same commands as you did for installation, except set the version number to the current release displayed on [nodejs.org](https://nodejs.org/).
 
-## Nvm
+## Managing multiple node.js versions
 
 Depending on your needs, you may need to manage multiple node.js versions. For that, you should install nvm:
 
@@ -52,4 +52,10 @@ Download a dependency and add it to `package.json`.
 
 ```
 npm install --save-dev koa
+```
+
+## Run the app
+
+```
+node app.js
 ```
