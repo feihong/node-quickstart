@@ -4,13 +4,13 @@ A very simple Node.js example.
 
 ## Installation
 
-Mac
+### Mac
 
 ```
 brew install node
 ```
 
-Linux
+### Linux
 
 ```
 cd ~/Downloads
@@ -20,13 +20,13 @@ sudo tar -C /usr/local --strip-components 1 -xJf nodejs.tar.xz
 
 ## Upgrading
 
-Mac
+### Mac
 
 ```
 brew upgrade node
 ```
 
-Linux
+### Linux
 
 Run the same commands as you did for installation, except set the version number to the current release displayed on [nodejs.org](https://nodejs.org/).
 
