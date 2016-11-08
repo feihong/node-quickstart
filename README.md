@@ -37,3 +37,19 @@ Depending on your needs, you may need to manage multiple node.js versions. For t
 ```
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.32.1/install.sh | bash
 ```
+
+## Create a project
+
+Generate a `package.json` file containing metadata about your project.
+
+```
+npm init -y
+```
+
+## Adding dependencies
+
+Download a dependency and add it to `package.json`.
+
+```
+npm install --save-dev koa
+```
