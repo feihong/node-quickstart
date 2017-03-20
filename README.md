@@ -6,9 +6,7 @@ A very simple Node.js example.
 
 ### Mac
 
-```
-brew install node
-```
+`brew install node yarn`
 
 ### Linux
 
@@ -22,9 +20,7 @@ sudo tar -C /usr/local --strip-components 1 -xJf nodejs.tar.xz
 
 ### Mac
 
-```
-brew upgrade node
-```
+`brew upgrade node`
 
 ### Linux
 
