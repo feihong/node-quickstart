@@ -8,19 +8,24 @@ A very simple Node.js example.
 
 `brew install node yarn`
 
+Add to profile: 
+
+```
+export PATH="$PATH:`yarn global bin`
+```
+
 ### Linux
 
 ```
 cd ~/Downloads
 wget -O nodejs.tar.xz https://nodejs.org/dist/v7.7.4/node-v7.7.4-linux-x64.tar.xz
 sudo tar -C /usr/local --strip-components 1 -xJf nodejs.tar.xz
+curl -o- -L https://yarnpkg.com/install.sh | bash
 ```
 
-### Update profile
+Add to profile: 
 
-```
-export PATH="$PATH:`yarn global bin`
-```
+`export PATH=$PATH:$HOME/.yarn/bin`
 
 ## Upgrading
 
