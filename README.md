@@ -12,7 +12,7 @@ A very simple Node.js example.
 
 ```
 cd ~/Downloads
-wget -O nodejs.tar.xz https://nodejs.org/dist/v7.6.0/node-v7.6.0-linux-x64.tar.xz
+wget -O nodejs.tar.xz https://nodejs.org/dist/v7.7.4/node-v7.7.4-linux-x64.tar.xz
 sudo tar -C /usr/local --strip-components 1 -xJf nodejs.tar.xz
 ```
 
