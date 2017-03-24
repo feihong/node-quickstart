@@ -8,24 +8,28 @@ A very simple Node.js example.
 
 `brew install node yarn`
 
-Add to profile: 
+Add to profile:
 
 ```
-export PATH="$PATH:`yarn global bin`
+export PATH=$PATH:`yarn global bin`
 ```
 
 ### Linux
 
 ```
-cd ~/Downloads
-wget -O nodejs.tar.xz https://nodejs.org/dist/v7.7.4/node-v7.7.4-linux-x64.tar.xz
-sudo tar -C /usr/local --strip-components 1 -xJf nodejs.tar.xz
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.1/install.sh | bash
+nvm ls-remote
+nvm install 7.7.4
+nvm alias default 7.7.4
+nvm use default
 curl -o- -L https://yarnpkg.com/install.sh | bash
 ```
 
-Add to profile: 
+Add to profile:
 
-`export PATH=$PATH:$HOME/.yarn/bin`
+```
+export PATH=$PATH:`yarn global bin`
+```
 
 ## Upgrading
 
@@ -35,14 +39,11 @@ Add to profile:
 
 ### Linux
 
-Run the same commands as you did for installation, except set the version number to the current release displayed on [nodejs.org](https://nodejs.org/).
-
-## Managing multiple node.js versions
-
-Depending on your needs, you may need to manage multiple node.js versions. For that, you should install nvm:
-
 ```
-curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.32.1/install.sh | bash
+nvm ls-remote
+nvm install [latest-version]
+nvm alias default [latest-version]
+nvm use default
 ```
 
 ## Create a project
@@ -50,15 +51,15 @@ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.32.1/install.sh | b
 Generate a `package.json` file containing metadata about your project.
 
 ```
-npm init -y
+yarn init -y
 ```
 
 ## Adding dependencies
 
-Download a dependency and add it to `package.json`.
+Download dependencies and add them to `package.json`.
 
 ```
-npm install --save-dev koa
+yarn add koa koa-request koa-route
 ```
 
 ## Run the app
@@ -66,3 +67,9 @@ npm install --save-dev koa
 ```
 node app.js
 ```
+
+
+## Sources
+
+- [The best way to install Node.js](http://yoember.com/nodejs/the-best-way-to-install-node-js/)
+- [Nvm install script](https://github.com/creationix/nvm#install-script)
