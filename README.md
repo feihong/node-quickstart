@@ -59,3 +59,4 @@ node app.js
 
 - [The best way to install Node.js](http://yoember.com/nodejs/the-best-way-to-install-node-js/)
 - [Nvm install script](https://github.com/creationix/nvm#install-script)
+- [Yarn install script](https://yarnpkg.com/en/docs/install#alternatives-tab)
