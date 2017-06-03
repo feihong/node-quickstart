@@ -9,8 +9,8 @@ A very simple Node.js example.
 ```
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.1/install.sh | bash
 nvm ls-remote
-nvm install 7.7.4
-nvm alias default 7.7.4
+nvm install 8.0.0
+nvm alias default 8.0.0
 nvm use default
 curl -o- -L https://yarnpkg.com/install.sh | bash
 ```
