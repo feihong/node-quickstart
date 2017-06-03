@@ -21,6 +21,8 @@ Add to profile:
 export PATH=$PATH:`yarn global bin`
 ```
 
+Note: You can also install yarn via brew on Mac, but that will also install node via brew, which is probably not what you want if you already have nvm installed.
+
 ## Upgrading
 
 ### Mac & Linux
