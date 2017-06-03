@@ -4,17 +4,7 @@ A very simple Node.js example.
 
 ## Installation
 
-### Mac
-
-`brew install node yarn`
-
-Add to profile:
-
-```
-export PATH=$PATH:`yarn global bin`
-```
-
-### Linux
+### Mac & Linux
 
 ```
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.1/install.sh | bash
@@ -33,11 +23,7 @@ export PATH=$PATH:`yarn global bin`
 
 ## Upgrading
 
-### Mac
-
-`brew upgrade node`
-
-### Linux
+### Mac & Linux
 
 ```
 nvm ls-remote
